@@ -39,9 +39,6 @@
     margin-top:15%;
     margin-left:8%;
 }
-h3{
-    font-size:60px;
-}
 span{
     color:#ffd11a;
 }
@@ -139,8 +136,63 @@ left:40%;
     background-image: linear-gradient( to right,#ffff00,#ff9900,rgb(255, 102, 102));
     color: #fff;
 }
-@keyframes jump{
-0%{
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 5% 5% 0 5%;
+}
+.progress-bar{
+    width: 80%;
+}
+.progress-bar h3 span{
+    font-size: 5px;
+}
+.bar-containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.light-bar{
+    width: 100%;
+    background-color: #000;
+    height: 0.5rem;
+    position: absolute;
+    bottom: 0;
 
 }
+.html-bar{
+    background-color: #ffd11a;
+    width: 95%;
+    position: absolute;
+}
+.css-bar{
+    background-color: #ffd11a;
+    width: 90%;
+    position: absolute;
+}
+.js-bar{
+    background-color: #ffd11a;
+    width: 96%;
+    position: absolute;
+}
+.rs-bar{
+    background-color: #ffd11a;
+    width: 96%;
+    position: absolute;
+}
+.an-bar{
+    background-color: #ffd11a;
+    width: 92%;
+    position: absolute;
+}
+.nd-bar{
+    background-color: #ffd11a;
+    width: 98%;
+    position: absolute;
+}
+.heading{
+    margin-top: 3rem;
 }
