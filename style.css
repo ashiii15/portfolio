@@ -31,8 +31,9 @@
     font-weight:bold;
 }
 .link:hover{
-    color:#ff4d4d;
+    background-image: linear-gradient( to right,#ffff00,#ff9900,rgb(255, 102, 102));
     cursor:pointer;
+    color: #fff;
 }
 .title{
     margin-top:15%;
@@ -43,6 +44,9 @@ h3{
 }
 span{
     color:#ffd11a;
+}
+.information span,.heading span{
+    color: #000;
 }
 #btn{
     background:#000;
@@ -74,3 +78,69 @@ span{
 .images:hover #grl{
 left:40%;
 } 
+#about{
+    margin: 18% 7% 0 9%;
+}
+.heading{
+    text-align: center;
+}
+.heading span{
+    color: #79ff4d;
+    font-weight: bold;
+}
+.heading h2{
+    font-size: 43px;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.about-details{
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.info-box{
+    margin-top: 14px;
+}
+.img{
+    width: 70%;
+    border-radius: 1rem;
+}
+.skills-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact{
+    margin-top: 30%;
+}
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px
+}
+.icon{
+    padding: 50px;
+    border-radius: 50%;
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    color: #000;
+}
+.icon i:hover{
+    background-image: linear-gradient( to right,#ffff00,#ff9900,rgb(255, 102, 102));
+    color: #fff;
+}
+@keyframes jump{
+0%{
+
+}
+}
